@@ -1,0 +1,57 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    font-family: Lato, sans-serif;
+    background: linear-gradient(to right, #ffefba, #ffffff); 
+    padding: clamp(20px, 5vw, 50px) 20px 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    text-align: center;   
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+span{
+    font-weight: 600;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+input{
+    width: 100%;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 5px;
+    width: 30%;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+    
+
+.cookie {
+    background: green;
+    width: 20%;
+    color: white;
+}
